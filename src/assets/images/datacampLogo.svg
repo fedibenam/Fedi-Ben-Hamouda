@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" role="img" aria-labelledby="title desc">
+  <title id="title">DataCamp logo style mark</title>
+  <desc id="desc">Green circular mark with DC letters and DataCamp text</desc>
+  <rect width="600" height="180" fill="#ffffff"/>
+  <g transform="translate(28,20)">
+    <circle cx="70" cy="70" r="58" fill="#03ef62"/>
+    <path d="M50 35h16c25 0 41 14 41 35s-16 35-41 35H50z" fill="#0a2f1f"/>
+    <path d="M66 50h1c13 0 22 7 22 20s-9 20-22 20h-1z" fill="#03ef62"/>
+    <path d="M112 45c-11-8-21-10-31-10v20c8 0 13 1 20 6z" fill="#0a2f1f"/>
+  </g>
+  <text x="170" y="108" font-family="Arial, sans-serif" font-size="62" font-weight="700" fill="#0a2f1f">DataCamp</text>
+</svg>

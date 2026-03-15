@@ -4,12 +4,12 @@
   background-color: $buttonColor;
   border: solid 1px $buttonColor;
   color: $textColorDark;
-  font-weight: 700;
+  font-weight: 600;
   width: max-content;
-  padding: 13px 22px;
+  padding: 12px 20px;
   margin-right: 50px;
-  text-transform: uppercase;
-  border-radius: 6px;
+  text-transform: none;
+  border-radius: 10px;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -19,8 +19,8 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .main-button:hover {
-  background-color: $darkBoxShadow2;
-  color: $buttonColor;
+  background-color: $buttonHover;
+  color: $textColorDark;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);
 }

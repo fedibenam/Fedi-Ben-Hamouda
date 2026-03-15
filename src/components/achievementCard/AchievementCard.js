@@ -11,11 +11,18 @@ export default function AchievementCard({cardInfo, isDark}) {
     win.focus();
   }
 
+  const getImageSrc = image => {
+    if (!image) return "";
+    if (typeof image === "string") return image;
+    if (image.default) return image.default;
+    return "";
+  };
+
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
       <div className="certificate-image-div">
         <img
-          src={cardInfo.image}
+          src={getImageSrc(cardInfo.image)}
           alt={cardInfo.imageAlt || "Card Thumbnail"}
           className="card-image"
         ></img>
